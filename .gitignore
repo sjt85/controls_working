@@ -1,0 +1,5 @@
+# git ignore file
+
+# These files are too big to commit
+*.log
+*.shmlog
