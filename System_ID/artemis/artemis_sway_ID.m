@@ -49,7 +49,7 @@ T_z = [-1.5; -.33; 0; -1.38; 1.14; 4.5; -3.2; 4.9];
 T_x = [1.4; 1.45; 1.5; 1.18; 1.99; 1.0; 1.83; .84];
 
 x = linspace(0,.6,500);
-pfit = polyval([5.778, 158.1, 0],x);
+pfit = polyval([152.1, 80.99, 0],x);
 orig = 400*x.^2;
 
 figure
@@ -62,7 +62,7 @@ xlabel('Sway Speed [m/s]')
 ylabel('Drag [N]')
 
 legend('Sway Data','Originally Assumed',...
-    sprintf( '%s\n%s','5.778v^2 + 158.1v', 'R^2 = 0.992'),...
+    sprintf( '%s\n%s','152.1v^2 + 80.99v', 'R^2 = 0.994'),...
     'Location', 'NorthWest')
 hold off
 
